@@ -15,3 +15,24 @@ details {
     border-radius: 5px;
     overflow: hidden;
   }
+
+/* Style pour le résumé */
+details summary {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 0;
+    border-radius: 5px;
+    user-select: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+/* Change le style du résumé quand l'accordéon est ouvert */
+details[open] summary {
+    background-color: #0056b3;
+  }
