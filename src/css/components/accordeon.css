@@ -51,3 +51,17 @@ details summary img {
     font-size: 0.95em;
     border-top: 1px solid #ccc;
   }
+
+/* Effet de transition pour l'animation lors de l'ouverture ou fermeture */
+details div {
+    max-height: 0;
+    padding: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out, padding 0.3s ease-out;
+  }
+  
+  /* Quand le détail est ouvert, on augmente la hauteur et la padding */
+  details[open] div {
+    max-height: 200px; /* ajuster selon le contenu */
+    padding: 10px;
+  }
