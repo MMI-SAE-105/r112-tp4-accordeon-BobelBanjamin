@@ -5,3 +5,13 @@
     padding: 20px;
     font-family: Arial, sans-serif;
   }
+
+
+/* Détails de chaque section de l'accordéon */
+details {
+    background-color: #f9f9f9;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+  }
