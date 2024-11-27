@@ -36,3 +36,18 @@ details summary {
 details[open] summary {
     background-color: #0056b3;
   }
+
+/* Pour les images dans le résumé */
+details summary img {
+    max-width: 40px;
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  /* Style du contenu (div qui se cache ou se montre) */
+  details div {
+    padding: 10px;
+    background-color: #ffffff;
+    font-size: 0.95em;
+    border-top: 1px solid #ccc;
+  }
