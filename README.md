@@ -1,6 +1,6 @@
-- nom :
-- prénom :
-- URL Netlify :
+- nom : bobel
+- prénom : banjamin
+- URL Netlify : https://chimerical-fudge-4a0682.netlify.app
 
 # Travail
 
